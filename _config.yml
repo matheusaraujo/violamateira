@@ -1,0 +1,63 @@
+title: Viola Mateira
+email: violamateira@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Uma viagem pessoal por estradas, códigos, músicas e filosofias de buteco.
+permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.violamateira.com.br" # the base hostname & protocol for your site, e.g. http://example.com
+
+site_pic: background.jpg
+about_site: Curiosidades e reflexões sobre o universo da Viola Caipira, Viola Sertaneja, Viola do Mato.
+
+detailed_about_site: Curiosidades e reflexões sobre o universo da Viola Caipira, Viola Sertaneja, Viola do Mato.
+
+# Author settings
+author: Matheus Araujo # add your name
+author-pic: matheus-face.jpg
+about-author: Matheus é Arquiteto de Software na dti digital e estuda Engenharia de Sistemas na UFMG. Se sobra tempo, toma umas cervejas e joga conversa fora.
+
+# Contact links
+email: violamateira@gmail.com # Add your Email address
+author_email: matheus.saraujo@gmail.com
+phone: # Add your Phone number
+website: https://www.violamateira.com.br # Add your website, do not add http://
+linkedin: matheussaraujo # Add your Linkedin handle
+github: matheusaraujo # Add your Github handle
+twitter: '@codandoestrada' # Add your Twitter handle
+# author_twitter: '@matheus88_bhz'
+facebook: # Add your Facebook handle
+instagram: violamateira # Add your Instagram handle
+author_instagram: matheus.araujo.88
+pinterest: # Add your Pinterest handle
+
+menu_tags:
+  - Minhas Violas
+  - Estórias
+  - Canções
+  
+# Newsletter
+mailchimp: # Add your MailChimp form identifier.
+
+# Disqus
+# discus_identifier: violamateira # Add your discus identifier
+discus_identifier:
+  
+# Tracker
+# analytics: UA-169260965-1 # Google Analytics
+
+# Paginate
+paginate: 6
+paginate_path: /page:num/
+
+# Build settings
+markdown: kramdown
+
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap  
+
+plugins_dir: ./_plugins
+
+include: [_pages]
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "package-lock.json", "assets/css/sass/", ".jekyll-cache"]
